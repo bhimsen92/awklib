@@ -71,7 +71,7 @@ to instantiate. AwkLib object is an Event Emitter and emits following three even
    This event is emitted when processing a file is finished.
 
 Each of this above events callbacks recieves an <b>object</b> which is local to the current file being processed and is shared across all these events.
-This local object contains a property called <b>crow</b> which represents the row that is being procesed. You can reference columns or fields
+This local object contains a property called <b>crow</b> which represents the row that is being processed. You can reference columns or fields
 via this <b>crow</b> object. You can also use it to set some properties to gather some statistics like totalAge, totalPopulation,
 totalRunsScored, average etc.
 
