@@ -72,7 +72,7 @@ to instantiate. AwkLib object is an Event Emitter and emits following three even
 
 Each of this above events callbacks recieves a <b>object</b> which local to the current file being processed and is shared across all these events.
 This local object contains a property called <b>crow</b> which represents the row which is being procesed. You can reference columns or fields
-via this <b>crow</b>object. You can also use it to set some properties to gather some statistics like totalAge, totalPopulation,
+via this <b>crow</b> object. You can also use it to set some properties to gather some statistics like totalAge, totalPopulation,
 totalRunsScored, average etc.
 
 There is one more object called <b>s(shared)</b> which is visible across all files and is a property of AwkLib object.
@@ -91,7 +91,7 @@ You can use to gather statistics across all the files.
         europe.csv
         russia 70
         germany 60
-        
+    */
         var AwkLib = new AwkLib("awklib");
         
         var options = {
@@ -120,5 +120,4 @@ You can use to gather statistics across all the files.
                 console.log("Total Population: " + this.s.totalPopulation);
         });
         
-        p.process();
-    */
+        p.process();    
