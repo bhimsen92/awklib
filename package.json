@@ -6,7 +6,7 @@
   "main": "./lib/awklib.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/harthur/replace.git"
+    "url": "https://github.com/bhimsen92/awklib.git"
   },
   "keywords": [
     "awk",
