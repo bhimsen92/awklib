@@ -1,7 +1,7 @@
 {
   "name": "awklib",
   "description": "A small library to process file like csv. Inspired By AWK command line tool",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Bhimsen S Kulkarni <bhimsen.pes@gmail.com>",
   "main": "./lib/awklib.js",
   "repository": {
